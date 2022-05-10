@@ -1,1 +1,1 @@
-console.log('app worked')
+export const result = console.log('app worked')
