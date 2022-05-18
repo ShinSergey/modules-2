@@ -1,1 +1,3 @@
-export const result = console.log('app worked')
+import { defaultExport, GameSavingData, readGameSaving as loadGame , writeGameSaving as saveGame } from "./game";
+const game = new Game();
+game.start();
